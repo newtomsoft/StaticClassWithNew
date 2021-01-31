@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using System.Collections.Generic;
 
 namespace StaticClassWithNew
 {
@@ -13,8 +11,8 @@ namespace StaticClassWithNew
 
     public static class Om21Parameter2
     {
-        public static readonly Dictionary<string, double> CoefficientToOhm = new Dictionary<string, double> { { _microOhm, 1E-6 } };
         private static readonly string _microOhm = "UOHM";
+        public static readonly Dictionary<string, double> CoefficientToOhm = new Dictionary<string, double> { { _microOhm, 1E-6 } };
     }
 
     class Program
